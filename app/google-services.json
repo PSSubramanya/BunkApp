@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "763988178258",
+    "firebase_url": "https://bunking-app.firebaseio.com",
+    "project_id": "bunking-app",
+    "storage_bucket": "bunking-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:763988178258:android:b65d9a48fa0dea2d",
+        "android_client_info": {
+          "package_name": "com.example.bunkingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "763988178258-e2l7b6cn0hocua90ep9eh611ov27ohjv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bunkingapp",
+            "certificate_hash": "5aba7d6b9128f208eaa84dd7189589c845bafe6b"
+          }
+        },
+        {
+          "client_id": "763988178258-lg3hqs7c640hf9ij742m7d8deniq2kco.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAb4jgU4RisETbP5rQNFZ3kTeJImGdvWKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "763988178258-lg3hqs7c640hf9ij742m7d8deniq2kco.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
