@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login">
+
+    <!--<com.google.android.material.textfield.TextInputLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">-->
+
+    <!--<com.google.android.material.textfield.TextInputEditText-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</com.google.android.material.textfield.TextInputLayout>-->
+
+
+    <LinearLayout
+        android:layout_width="305dp"
+        android:layout_height="280dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/box_borders"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="305dp"
+            android:layout_height="100dp"
+            android:background="#300F9F"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="130dp"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="80dp"
+                android:text="Log in"
+                android:textSize="40dp"
+                android:textColor="#FFFFFF"
+                android:paddingLeft="10dp"
+                android:textStyle="normal"/>
+
+            <TextView
+                android:layout_width="238dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="5dp"
+                android:textStyle="normal"
+                android:textColor="#FFFFFF"
+                android:drawableRight="@drawable/ic_chevron_right_black_24dp"
+                android:text="Don't have an account? SignUp"
+                android:paddingTop="3dp"
+                android:paddingLeft="18dp"
+                android:id="@+id/logtext"/>
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="265dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:hint="Email Address"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/box_borders"
+            android:id="@+id/emaillog"/>
+
+        <EditText
+            android:layout_width="265dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:hint="Password"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/box_borders"
+            android:inputType="textPassword"
+            android:id="@+id/passlog"/>
+
+
+        <Button
+            android:layout_width="265dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="15dp"
+            android:text="Log IN"
+            android:textColor="#FFFFFF"
+            android:textSize="14dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/login_btn"
+            android:id="@+id/logbtn"/>
+
+    </LinearLayout>
+
+</LinearLayout>
